@@ -1,6 +1,6 @@
 package projetopessoas;
 
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private int idade;
     private String sexo;
@@ -35,7 +35,7 @@ public class Pessoa {
 
     @Override
     public String toString() {
-        return "\n------Pessoa------" +
+        return "\n------Dados------" +
                 "\nNome: " +  this.getNome() +
                 "\nIdade: " + this.getIdade() +
                 "\nSexo: " + this.getSexo() + "\n";

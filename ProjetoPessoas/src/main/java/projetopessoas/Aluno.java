@@ -8,8 +8,8 @@ public class Aluno extends Pessoa{
     public Aluno() {
     }
 
-    public void cancelarMatricula(){
-        System.out.println("Matricula será cancelada");
+    public void pagarMensalidade(){
+        System.out.println(this.getNome() + ", sua mensalidade foi paga com sucesso");
     }
 
     public int getMatricula() {
